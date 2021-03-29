@@ -16,8 +16,8 @@ def main():
     fps = pygame.time.Clock()
  
     # dino
-    imgDino1 = pygame.image.load('images/dino1.png')
-    imgDino2 = pygame.image.load('images/dino2.png')
+    imgDino1 = pygame.image.load('dinoimage1.png')
+    imgDino2 = pygame.image.load('dinoimage2.png')
     dino_height = imgDino1.get_size()[1]
     dino_bottom = MAX_HEIGHT - dino_height
     dino_x = 50
@@ -28,7 +28,7 @@ def main():
     is_go_up = False
  
     # tree
-    imgTree = pygame.image.load('images/tree.png')
+    imgTree = pygame.image.load('treeimage1.png')
     tree_height = imgTree.get_size()[1]
     tree_x = MAX_WIDTH
     tree_y = MAX_HEIGHT - tree_height
